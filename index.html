@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mobile POS — Billing, receipts and stock on your phone</title>
+<meta name="description" content="Mobile POS is a billing app for Sri Lankan grocery shops, cafés and salons. Bills, Sinhala receipts, stock and credit on your Android phone. Free on Google Play.">
+<meta name="theme-color" content="#0E9F6E">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mobile POS — Billing, receipts and stock on your phone">
+<meta property="og:description" content="For Sri Lankan grocery shops, cafés and salons. In Sinhala and English. Free on Google Play.">
+<meta property="og:image" content="assets/icon.png">
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="alternate icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Mobile POS">
+      <img src="assets/mark.svg" width="36" height="36" alt="">
+      <span>Mobile POS</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#business" data-si="ව්‍යාපාර වර්ග">Business types</a>
+      <a href="#features" data-si="විශේෂාංග">Features</a>
+      <a href="#screens" data-si="තිර">Screens</a>
+      <a href="#start" data-si="බාගත කරන්න">Get started</a>
+      <a href="#faq" data-si="ප්‍රශ්න">FAQ</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="si" aria-pressed="false" class="si-font">සිංහල</button>
+      </div>
+      <a class="btn btn-sm" href="https://play.google.com/store/apps/details?id=lk.mobilepos.app" target="_blank" rel="noopener" data-si="බාගන්න">Download</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow" data-si="සිල්ලර කඩ · කැෆේ · සැලෝන්">Grocery shops · Cafés · Salons</p>
+      <h1 data-si="ඔබේ ව්‍යාපාරයේ බිල්පත් දැන් ෆෝන් එකෙන්ම">Run your till from the phone in your pocket</h1>
+      <p class="lead" data-si="බිල්පත්, රිසිට්පත්, තොග සහ ණය පොත — සියල්ල එක ඇප් එකකින්. සිංහලෙන් සහ ඉංග්‍රීසියෙන්. Google Play හි නොමිලේ.">Bills, receipts, stock and the credit book in one app, built for Sri Lankan shops. In Sinhala and English. Free on Google Play.</p>
+      <div class="hero-cta">
+        <a class="play" href="https://play.google.com/store/apps/details?id=lk.mobilepos.app" target="_blank" rel="noopener">
+          <svg width="26" height="28" viewBox="0 0 26 28" aria-hidden="true"><path d="M1.6 1.2 14.9 14 1.6 26.8c-.4-.3-.6-.8-.6-1.4V2.6c0-.6.2-1.1.6-1.4Z" fill="#34C759"/><path d="m19.3 9.7-4.4 4.3L1.6 1.2c.6-.4 1.4-.4 2.2 0l15.5 8.5Z" fill="#4DA3FF"/><path d="m19.3 18.3-15.5 8.5c-.8.4-1.6.4-2.2 0L14.9 14l4.4 4.3Z" fill="#FF3B30"/><path d="m19.3 9.7 4.6 2.5c1.5.8 1.5 2.8 0 3.6l-4.6 2.5-4.4-4.3 4.4-4.3Z" fill="#FFCC00"/></svg>
+          <span><small data-si="නොමිලේ බාගන්න">Get it free on</small><b>Google Play</b></span>
+        </a>
+        <a class="link-arrow" href="#screens" data-si="ඇප් එක බලන්න →">See the app →</a>
+      </div>
+      <ul class="ticks">
+        <li data-si="සිංහල රිසිට්පත්">Sinhala receipts</li>
+        <li data-si="අන්තර්ජාලය නැතිවත් වැඩ">Works offline</li>
+        <li data-si="Bluetooth ප්‍රින්ටර්">Bluetooth printers</li>
+      </ul>
+    </div>
+
+    <div class="hero-art">
+      <div class="blob" aria-hidden="true"></div>
+      <div class="phone" data-screen="grocery" data-screen-si="grocerySi" role="img" aria-label="The Quick Bill screen: item tiles, a cart of three items and a green Pay button"></div>
+      <div class="chip chip-a" aria-hidden="true">
+        <span class="dot ok">✓</span>
+        <span><b data-si="බිල සුරැකිණි">Bill saved</b><small data-si="මුද්‍රණය විය · #1042">Printed · #1042</small></span>
+      </div>
+      <div class="chip chip-b" aria-hidden="true">
+        <span class="dot wa"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/></svg></span>
+        <span><b data-si="WhatsApp රිසිට්පත">Receipt on WhatsApp</b><small data-si="ප්‍රින්ටරයක් අවශ්‍ය නැහැ">No printer needed</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUSINESS TYPES -->
+<section class="section" id="business">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-si="එක ඇප් එකක්, කවුන්ටර තුනක්">One app, three tills</p>
+      <h2 data-si="ඔබේ ව්‍යාපාරයට ගැළපෙන තිර පමණයි">It only shows what your business needs</h2>
+      <p data-si="ලියාපදිංචි වන විට ව්‍යාපාර වර්ගය තෝරන්න. ඇප් එක ඒ අනුව සකස් වේ.">Pick your business type when you sign up. The app arranges itself around it, so a salon never sees a kitchen screen.</p>
+    </div>
+
+    <div class="types">
+      <div class="types-side">
+        <div class="tabs" role="tablist" aria-label="Business type">
+          <button role="tab" type="button" aria-selected="true" data-type="grocery" data-si="සිල්ලර කඩය">Grocery</button>
+          <button role="tab" type="button" aria-selected="false" data-type="cafe" data-si="කැෆේ">Café</button>
+          <button role="tab" type="button" aria-selected="false" data-type="salon" data-si="සැලෝන්">Salon</button>
+        </div>
+
+        <div class="type-panel" data-panel="grocery">
+          <h3 data-si="සිල්ලර කඩ සහ කුඩා සුපර්මාකට්">Grocery shops and mini-markets</h3>
+          <ul class="list">
+            <li data-si="ෆෝන් කැමරාවෙන් බාර්කෝඩ් ස්කෑන් කරන්න">Scan barcodes with the phone camera</li>
+            <li data-si="කිලෝ ගණනින් විකුණන්න — සහල් 2.5 kg වුණත්">Sell by weight, down to 2.5 kg of rice</li>
+            <li data-si="ණය පොත: කවුද කීයද ණය කියා එක බැල්මකින්">Credit book: who owes what, at a glance</li>
+            <li data-si="තොග අඩු වූ විට ඇණවුම් ලැයිස්තුව WhatsApp කරන්න">Low stock becomes an order list you WhatsApp to the supplier</li>
+          </ul>
+        </div>
+        <div class="type-panel" data-panel="cafe" hidden>
+          <h3 data-si="කැෆේ සහ කුඩා අවන්හල්">Cafés and small restaurants</h3>
+          <ul class="list">
+            <li data-si="මේසය, ඇතුළත හෝ රැගෙන යාම">Table, dine-in or takeaway</li>
+            <li data-si="අමතර දේවල් එක තට්ටුවකින් — අමතර චීස්, සීනි නැතිව">Add-ons in one tap: extra cheese, no sugar</li>
+            <li data-si="විවෘත ඇණවුම් සජීවීව බලන්න">Open orders, live across every phone</li>
+            <li data-si="කුස්සියට ඇණවුම් ටිකට්">Order tickets for the kitchen</li>
+          </ul>
+        </div>
+        <div class="type-panel" data-panel="salon" hidden>
+          <h3 data-si="සැලෝන් සහ රූපලාවන්‍යාගාර">Salons and beauty parlours</h3>
+          <ul class="list">
+            <li data-si="සෑම සේවාවක්ම කළ සේවකයා සමඟ">Each service against the staff member who did it</li>
+            <li data-si="පැකේජ සහ ඉතිරි වාර ගණන">Packages, with visits left</li>
+            <li data-si="දවසේ වේලාවන් සහ පෝලිම">The day's appointments and the walk-in queue</li>
+            <li data-si="සේවක කොමිස් මාසය අවසානයේ එකතු වේ">Staff commission, totalled for the month</li>
+          </ul>
+        </div>
+      </div>
+      <div class="types-art">
+        <div class="phone phone-md" id="type-phone" data-screen="grocery" role="img" aria-label="Billing screen for the selected business type"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section tint" id="features">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-si="විශේෂාංග">Features</p>
+      <h2 data-si="කවුන්ටරයේ සැබෑ දවසක් සඳහා හදපු">Made for a real day at the counter</h2>
+    </div>
+
+    <div class="grid">
+      <article class="card feature-lg">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M7 3h10a2 2 0 0 1 2 2v16l-2.3-1.6L14.3 21 12 19.4 9.7 21l-2.4-1.6L5 21V5a2 2 0 0 1 2-2Z"/><path d="M9 8h6M9 12h6"/></svg></div>
+        <h3 data-si="සිංහල රිසිට්පත්, පැහැදිලිව">Sinhala receipts that actually print</h3>
+        <p data-si="බොහෝ තර්මල් ප්‍රින්ටර්වලට සිංහල අකුරු මුද්‍රණය කළ නොහැක. Mobile POS රිසිට්පත පින්තූරයක් ලෙස මුද්‍රණය කරන නිසා සිංහල, ඉංග්‍රීසි හෝ දෙකම පැහැදිලිව ලැබේ.">Most thermal printers cannot print Sinhala letters. Mobile POS prints the receipt as a picture, so Sinhala, English or both come out clean, with your shop logo on top.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M7 8V3h10v5M7 17H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M7 14h10v7H7z"/></svg></div>
+        <h3 data-si="Bluetooth ප්‍රින්ටර්">Bluetooth printers</h3>
+        <p data-si="58 mm සහ 80 mm තර්මල් ප්‍රින්ටර්. ගෙවීමෙන් පසු රිසිට්පත ඉබේම මුද්‍රණය වේ.">58 mm and 80 mm thermal printers. The receipt prints by itself after payment.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></div>
+        <h3 data-si="WhatsApp රිසිට්පත්">WhatsApp receipts</h3>
+        <p data-si="ප්‍රින්ටරයක් නැද්ද? රිසිට්පත පින්තූරයක් හෝ PDF එකක් ලෙස යවන්න.">No printer? Send the receipt as a picture or a PDF instead.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M2 8.5a15 15 0 0 1 20 0M5.5 12a10 10 0 0 1 13 0M9 15.5a5 5 0 0 1 6 0"/><circle cx="12" cy="19" r="1"/><path d="M3 3l18 18"/></svg></div>
+        <h3 data-si="අන්තර්ජාලය නැතිවත් වැඩ">Works when the internet doesn't</h3>
+        <p data-si="සම්බන්ධතාව නැති වූ විට බිල්පත් ෆෝන් එකේ සුරැකේ. නැවත ආ විට ඉබේම යාවත්කාලීන වේ.">Bills are kept on the phone when the connection drops, and sent up when it comes back.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 6v12M8 6v12M12 6v12M16 6v12M20 6v12"/></svg></div>
+        <h3 data-si="බාර්කෝඩ් ස්කෑන් සහ ලේබල්">Barcode scan and labels</h3>
+        <p data-si="කැමරාවෙන් ස්කෑන් කරන්න. බාර්කෝඩ් නැති භාණ්ඩවලට ලේබල් හදා මුද්‍රණය කරන්න.">Scan with the camera. For items without a barcode, create and print your own labels.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4-9-4Z"/><path d="M3 7v10l9 4 9-4V7M12 11v10"/></svg></div>
+        <h3 data-si="තොග පාලනය">Stock you can trust</h3>
+        <p data-si="සෑම විකිණීමකින්ම තොගය අඩු වේ. අඩු සහ අවසන් වූ භාණ්ඩ මුලින්ම පෙන්වයි.">Every sale takes stock down. Low and out-of-stock items show first.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h12a2 2 0 0 1 2 2v14H7a2 2 0 0 1-2-2V4Z"/><path d="M9 9h6M9 13h4"/></svg></div>
+        <h3 data-si="ණය පොත">Credit book</h3>
+        <p data-si="ණයට දුන් බිල්පත් සහ ලැබුණු ගෙවීම් පාරිභෝගිකයා අනුව.">Bills given on credit and payments received, customer by customer.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3 data-si="දවස අවසන් වාර්තා">Day-end reports</h3>
+        <p data-si="විකුණුම්, ලාභය සහ ලාච්චුවේ මුදල් ගණන් කිරීම — දවස වසන විට.">Sales, profit and the cash drawer count when you close for the day.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+        <h3 data-si="සේවකයින් සහ අවසර">Staff and permissions</h3>
+        <p data-si="සෑම අයකැමියෙකුටම වෙනම ගිණුමක්. හිමිකරුගේ PIN එක මිල, තොග සහ වාර්තා ආරක්ෂා කරයි.">Each cashier has their own login. The owner PIN keeps prices, stock and reports locked.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><rect x="2.5" y="5.5" width="19" height="13" rx="2.5"/><path d="M2.5 10h19M6.5 14.5h4"/></svg></div>
+        <h3 data-si="ඕනෑම ගෙවීම් ක්‍රමයක්">Every way to pay</h3>
+        <p data-si="මුදල්, කාඩ්, LankaQR හෝ ණයට. එක බිලක් ක්‍රම කිහිපයකට බෙදන්නත් පුළුවන්.">Cash, card, LankaQR or on credit. One bill can be split across them.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></svg></div>
+        <h3 data-si="භාණ්ඩ ලැයිස්තුව ආයාත කරන්න">Import your price list</h3>
+        <p data-si="භාණ්ඩ සියයක් එකින් එක ටයිප් කරන්න එපා. CSV ගොනුවකින් එකවර ගෙනෙන්න.">Don't type a hundred items one by one. Bring them in from a CSV file.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- SCREENS -->
+<section class="section" id="screens">
+  <div class="wrap">
+    <div class="head">
+      <p class="eyebrow" data-si="ඇප් එක ඇතුළත">Inside the app</p>
+      <h2 data-si="ලොකු බොත්තම්, පැහැදිලි අංක">Big buttons, clear numbers, no clutter</h2>
+      <p data-si="කාර්යබහුල කවුන්ටරයක එක අතකින් භාවිත කළ හැකි ලෙස හදා ඇත.">Designed to be used one-handed at a busy counter.</p>
+    </div>
+  </div>
+  <div class="rail" tabindex="0" aria-label="App screens">
+    <figure><div class="phone phone-sm" data-screen="payment"></div><figcaption data-si="ගෙවීම — ඉතිරි මුදල ඉබේම ගණනය වේ">Payment, with change worked out for you</figcaption></figure>
+    <figure><div class="phone phone-sm" data-screen="success"></div><figcaption data-si="සුරැකිණි, මුද්‍රණය විය — වැරදුණොත් Undo">Saved and printed, with Undo if you slipped</figcaption></figure>
+    <figure><div class="phone phone-sm" data-screen="receipt"></div><figcaption data-si="රිසිට්පත — සිංහල, ඉංග්‍රීසි හෝ දෙකම">Receipt in English, Sinhala or both</figcaption></figure>
+    <figure><div class="phone phone-sm" data-screen="credit"></div><figcaption data-si="ණය පොත">Credit book</figcaption></figure>
+    <figure><div class="phone phone-sm" data-screen="reports"></div><figcaption data-si="දවස අවසන් වාර්තාව">Day-end report</figcaption></figure>
+    <figure><div class="phone phone-sm" data-screen="owner"></div><figcaption data-si="හිමිකරුගේ පුවරුව">Owner dashboard</figcaption></figure>
+    <figure><div class="phone phone-sm" data-screen="reorder"></div><figcaption data-si="ඇණවුම් ලැයිස්තුව සැපයුම්කරුට WhatsApp කරන්න">Order list, sent to the supplier on WhatsApp</figcaption></figure>
+    <figure><div class="phone phone-sm" data-screen="users"></div><figcaption data-si="සේවක අවසර සරල වාක්‍යවලින්">Staff permissions in plain sentences</figcaption></figure>
+  </div>
+</section>
+
+<!-- GET STARTED -->
+<section class="section" id="start">
+  <div class="wrap">
+    <div class="start">
+      <div class="start-copy">
+        <p class="eyebrow on-dark" data-si="Android · Google Play හි නොමිලේ">Android · Free on Google Play</p>
+        <h2 data-si="නොමිලේ බාගත කරගන්නේ මෙහෙමයි">Start billing in a few minutes</h2>
+        <ol class="steps">
+          <li><span>1</span><div><b data-si="ෆෝන් කැමරාවෙන් QR එක ස්කෑන් කරන්න">Scan the QR with your phone camera</b><small data-si="නැත්නම් Google Play බොත්තම ඔබන්න">Or tap the Google Play button</small></div></li>
+          <li><span>2</span><div><b data-si="Google Play හි Install ඔබන්න">Tap Install on Google Play</b></div></li>
+          <li><span>3</span><div><b data-si="ඇප් එක විවෘත කර ලියාපදිංචි වෙන්න">Open the app and sign up</b><small data-si="දුරකථන අංකය සහ මුරපදයක් පමණයි">Just a phone number and a password</small></div></li>
+        </ol>
+        <a class="play play-light" href="https://play.google.com/store/apps/details?id=lk.mobilepos.app" target="_blank" rel="noopener">
+          <svg width="26" height="28" viewBox="0 0 26 28" aria-hidden="true"><path d="M1.6 1.2 14.9 14 1.6 26.8c-.4-.3-.6-.8-.6-1.4V2.6c0-.6.2-1.1.6-1.4Z" fill="#34C759"/><path d="m19.3 9.7-4.4 4.3L1.6 1.2c.6-.4 1.4-.4 2.2 0l15.5 8.5Z" fill="#4DA3FF"/><path d="m19.3 18.3-15.5 8.5c-.8.4-1.6.4-2.2 0L14.9 14l4.4 4.3Z" fill="#FF3B30"/><path d="m19.3 9.7 4.6 2.5c1.5.8 1.5 2.8 0 3.6l-4.6 2.5-4.4-4.3 4.4-4.3Z" fill="#FFCC00"/></svg>
+          <span><small data-si="නොමිලේ බාගන්න">Get it free on</small><b>Google Play</b></span>
+        </a>
+      </div>
+      <div class="qr">
+        <img src="assets/play-qr.png" width="220" height="220" alt="QR code linking to Mobile POS on Google Play" loading="lazy">
+        <span data-si="ස්කෑන් කර බාගන්න">Scan to download</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="wrap narrow">
+    <div class="head">
+      <p class="eyebrow" data-si="ප්‍රශ්න">Questions</p>
+      <h2 data-si="නිතර අසන ප්‍රශ්න">Before you download</h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary data-si="ප්‍රින්ටරයක් අවශ්‍යද?">Do I need a printer?</summary>
+        <p data-si="නැහැ. සෑම රිසිට්පතක්ම පින්තූරයක් හෝ PDF එකක් ලෙස WhatsApp හරහා යැවිය හැක. ප්‍රින්ටරයක් තිබේ නම්, 58 mm සහ 80 mm Bluetooth තර්මල් ප්‍රින්ටර් සමඟ වැඩ කරයි.">No. Every receipt can go out on WhatsApp as a picture or a PDF. If you do have one, Mobile POS works with 58 mm and 80 mm Bluetooth thermal printers.</p>
+      </details>
+      <details>
+        <summary data-si="අන්තර්ජාලය නැතිව වැඩ කරනවාද?">Does it work without internet?</summary>
+        <p data-si="ඔව්. සම්බන්ධතාව නැති වූ විට බිල්පත් ෆෝන් එකේ සුරැකී, නැවත සම්බන්ධ වූ විට ඉබේම යැවේ. ලියාපදිංචි වීමට සහ මුලින්ම පිවිසීමට අන්තර්ජාලය අවශ්‍යයි.">Yes. When the connection drops, bills are kept on the phone and sent up by themselves once you are back online. You need internet to sign up and to sign in the first time.</p>
+      </details>
+      <details>
+        <summary data-si="මුළු ඇප් එකම සිංහලෙන් තිබෙනවාද?">Is the whole app in Sinhala?</summary>
+        <p data-si="බිල් තිර, සැකසුම් සහ රිසිට්පත් සිංහලෙන් සහ ඉංග්‍රීසියෙන් තිබේ. භාෂාව ඕනෑම වේලාවක මාරු කළ හැක.">The billing screens, settings and receipts are in Sinhala and English, and you can switch language at any time.</p>
+      </details>
+      <details>
+        <summary data-si="මගේ සේවකයින්ට භාවිත කළ හැකිද?">Can my staff use it?</summary>
+        <p data-si="ඔව්. සෑම අයකැමියෙකුම තමන්ගේ දුරකථන අංකයෙන් සහ මුරපදයෙන් පිවිසේ. ඔවුන්ට කළ හැකි දේ ඔබ තෝරයි — වට්ටම් දීම, බිල් අවලංගු කිරීම වැනි. මිල, තොග සහ වාර්තා හිමිකරුගේ PIN එකෙන් ආරක්ෂා වේ.">Yes. Each cashier signs in with their own phone number and password, and you choose what they may do, such as giving discounts or voiding a bill. Prices, stock and reports stay behind the owner PIN.</p>
+      </details>
+      <details>
+        <summary data-si="කුමන ෆෝන්වලද වැඩ කරන්නේ?">Which phones does it run on?</summary>
+        <p data-si="Android ෆෝන්. Google Play වෙතින් බාගන්න.">Android phones. Download it from Google Play.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <a class="brand" href="#top"><img src="assets/mark.svg" width="30" height="30" alt=""><span>Mobile POS</span></a>
+    <p data-si="ශ්‍රී ලංකාවේ සිල්ලර කඩ, කැෆේ සහ සැලෝන් සඳහා බිල්පත්, රිසිට්පත් සහ තොග.">Billing, receipts and stock for Sri Lankan shops, cafés and salons.</p>
+    <a href="https://play.google.com/store/apps/details?id=lk.mobilepos.app" target="_blank" rel="noopener">Google Play</a>
+    <small>© 2026 Mobile POS</small>
+  </div>
+</footer>
+
+<script src="screens.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
